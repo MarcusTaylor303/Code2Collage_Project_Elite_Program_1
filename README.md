@@ -1,3 +1,25 @@
 # Code2Collage_Project_Elite_Program_1
 
-IT'S A MEMEEEEEEEEEEEEEEEEE!!!!!!!!!!!!!!!!!!!!!!!!!!!
+A bot that has a lot of meme based responses.
+
+## Table of Contents
+
+- [Background](#background)
+
+- [Install](#install)
+
+- [Usage](#usage)
+
+## Background
+
+Needed to make a quilifier so I made it fun.
+
+## Install
+
+Fork the code on replit.
+
+## Usage
+
+Just for fun.
+
+### Any optional sections
