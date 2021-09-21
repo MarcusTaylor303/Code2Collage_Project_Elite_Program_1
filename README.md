@@ -28,6 +28,6 @@ Just for fun.
 ## Test Plan
 
 To test project:
-1. Run the test 
+1. Run the test. 
 2. Check the results.
-
+3. Submit test report.
