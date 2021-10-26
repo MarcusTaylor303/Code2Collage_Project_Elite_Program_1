@@ -1,0 +1,26 @@
+import time
+import unittest
+import random
+
+class PerformanceTestRandomUnique(unittest.TestCase):
+    # if we randomly pick T numbers from 1 to T, how many unique numbers do we see
+    
+    def count_random_repeats(self, T):
+       unique = []
+       for i in range(T):
+           n = random.randint(1, T)
+           if not n in unique:
+               unique.append(n)
+       return len(unique)
+
+    def test_perf(self):
+        start_time = time.time()
+        print(self.count_random_repeats(10000))
+        end_time = time.time()
+        elapsed_time = end_time - start_time
+        print('Test took ' + str(elapsed_time) + ' seconds.')
+        # test that elapsed time is less than 2 seconds
+        self.assertTrue(elapsed_time < 2.0)
+
+if __name__ == '__main__':
+    unittest.main()
