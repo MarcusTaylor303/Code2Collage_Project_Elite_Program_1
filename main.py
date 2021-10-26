@@ -10,7 +10,7 @@ def greeting(user_response):
     "Wonderful",
     "YEET!!!"
   ]
-  return randon.choice(results)
+  return random.choice(results)
 
 def response_generation(user_input):
   responses = [
