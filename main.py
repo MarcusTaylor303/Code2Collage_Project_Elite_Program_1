@@ -1,8 +1,16 @@
 import random
 
+#Name
 name = input("What's your name? ")
 
 # Conversation robot.
+def greeting(user_response):
+  results = [
+    "Great!",
+    "Wonderful",
+    "YEET!!!"
+  ]
+  return randon.choice(results)
 
 def response_generation(user_input):
   responses = [
@@ -20,8 +28,10 @@ def response_generation(user_input):
 def init_chat():
   quit_character = 'q'
 
-  user_input = input(f"Hello, how are you {name}?\n ")
-
+  user_response = input(f"Hello, how are you {name}?\n ")
+  
+  user_input = input("What do you want to talk about?")
+  
   while user_input != quit_character:
     #Ask the user for more input to generate the response.
     user_input = input(response_generation(user_input) + "\n")
